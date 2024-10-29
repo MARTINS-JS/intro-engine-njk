@@ -18,7 +18,7 @@
 
   - [ ] **NodeJS + Nunjucks**
     - [X] Criando o HTML
-    - [ ] Criando o servidor
+    - [X] Criando o servidor
     - [ ] Separando partes do layout
     - [ ] Nova página e menu
     - [ ] Views e partials
