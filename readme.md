@@ -17,7 +17,7 @@
 **Índice**
 
   - [ ] **NodeJS + Nunjucks**
-    - [ ] Criando o HTML
+    - [X] Criando o HTML
     - [ ] Criando o servidor
     - [ ] Separando partes do layout
     - [ ] Nova página e menu
