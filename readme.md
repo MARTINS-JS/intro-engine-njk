@@ -21,7 +21,7 @@
     - [X] Criando o servidor
     - [X] Separando partes do layout
     - [X] Nova página e menu
-    - [ ] Views e partials
+    - [X] Views e partials
     - [ ] Passando um objeto para o ejs
     - [ ] For
 
