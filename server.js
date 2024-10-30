@@ -11,11 +11,11 @@ nunjucks.configure('views', {
 })
 
 app.get('/', function(req, res) {
-  return res.render('home')
+  return res.render('pages/home')
 })
 
 app.get('/about', function(req, res) {
-  return res.render('about')
+  return res.render('pages/about')
 })
 
 app.listen(8080, function() {
