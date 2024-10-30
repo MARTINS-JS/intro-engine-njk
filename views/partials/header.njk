@@ -4,6 +4,10 @@
       <li><a href="/">Home</a></li>
       <li><a href="/about">About</a></li>
     </ul>
-    <a href="/">NJK</a>
+    <a href="/">
+      {% block conditional %}
+        {{ 'TRUE' if conditional else 'FALSE' }}
+      {% endblock %}
+    </a>
   </nav>
 </header>
