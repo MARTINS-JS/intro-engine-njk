@@ -20,7 +20,7 @@
     - [X] Criando o HTML
     - [X] Criando o servidor
     - [X] Separando partes do layout
-    - [ ] Nova página e menu
+    - [X] Nova página e menu
     - [ ] Views e partials
     - [ ] Passando um objeto para o ejs
     - [ ] For
