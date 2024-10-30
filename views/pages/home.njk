@@ -7,4 +7,12 @@
       <p>Aprendendo a trabalhar com arquivos NJK.</p>
     </div>
   </main>
+  <div>      
+    <ul>
+      <h2>{{ summary.title }}</h2>
+        {% for item in summary.items %}
+          <li>{{ item }}</li>
+        {% endfor %}
+    </ul>
+  </div>  
 {% endblock %}

@@ -11,7 +11,18 @@ nunjucks.configure('views', {
 })
 
 app.get('/', function(req, res) {
-  return res.render('pages/home', { conditional: true })
+  const summary = {
+    title: 'Tópicos essenciais:',
+    items: [
+      'Instalação e Configuração;',
+      'Sintaxe Básica;',
+      'Estruturas de Controle;',
+      'Partials;',
+      'Renderização de Dados Dinâmicos.'
+    ]
+  }
+
+  return res.render('pages/home', { conditional: true, summary })
 })
 
 app.get('/about', function(req, res) {
