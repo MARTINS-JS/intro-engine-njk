@@ -16,14 +16,14 @@
 
 **Índice**
 
-  - [ ] **NodeJS + Nunjucks**
+  - [X] **NodeJS + Nunjucks**
     - [X] Criando o HTML
     - [X] Criando o servidor
     - [X] Separando partes do layout
     - [X] Nova página e menu
     - [X] Views e partials
     - [X] Passando um objeto para o ejs
-    - [ ] For
+    - [X] For
 
 <div style="">
   <p>
