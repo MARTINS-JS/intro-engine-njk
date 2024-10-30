@@ -10,7 +10,7 @@ nunjucks.configure('views', {
 })
 
 app.get('/', function(req, res) {
-  return res.render('index')
+  return res.render('home')
 })
 
 app.listen(8080, function() {
