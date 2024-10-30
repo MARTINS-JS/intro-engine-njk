@@ -1,99 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <title>Construindo com NJK</title>
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-      
-      :root {
-        --bg-block-01: #EEEEEE;
-        --bg-block-02: #acacac;
-        --color-10: #111111;
-        --color-20: #a6a6a1;
-      }
-
-      * {
-        border: none;
-        margin: 0;
-        padding: 0;
-      }
-
-      body {
-        font-family: "Roboto", serif;
-        margin: 0 auto;
-        max-width: 724px;
-      }
-
-      header {
-        background: var(--bg-block-01);
-        margin-top: 50px;
-        padding: 16px;
-      }
-
-      header nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-      }
-
-      header nav a {
-        color: var(--color-10);
-        text-decoration: none;
-      }
-
-      header nav ul {
-        display: flex;
-        gap: 16px;
-        list-style: none;
-      }
-
-      header nav ul li a {
-        color: var(--color-20);
-        font-size: 18px;
-      }
-
-      .bold {
-        color: var(--color-10);
-        font-weight: bold;
-      }
-
-      main {
-        background: var(--bg-block-02);
-      }
-      
-      main div {
-        padding: 36px 16px;
-      }
-
-      main div h1 {
-        font-size: 42px;
-      }
-
-      main div p {
-        color: var(--bg-block-01);
-        font-size: 18px;
-      }
-
-      footer {
-        margin-top: 20px;
-        text-align: center;
-      }
-    </style>
-  </head>
+    {% include 'partials/head.njk' %}
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about">About</a></li>
-        </ul>
-        <a href="/">NJK</a>
-      </nav>
-    </header>
+    {% include 'partials/header.njk' %}
     {% block content %}{% endblock %}
-    <footer>
-      <p>Feito com 💚 by Martins</p>
-    </footer>
+    {% include 'partials/footer.njk' %}
     <script src="/script.js"></script>
   </body>
 </html>
