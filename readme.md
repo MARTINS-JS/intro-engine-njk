@@ -22,7 +22,7 @@
     - [X] Separando partes do layout
     - [X] Nova página e menu
     - [X] Views e partials
-    - [ ] Passando um objeto para o ejs
+    - [X] Passando um objeto para o ejs
     - [ ] For
 
 <div style="">
